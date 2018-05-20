@@ -8,7 +8,7 @@ collection = db.my_first_collection
 
 post = {"author": "Mike",
         "text": "My first blog post!",
-        "tags": ["mongodb", "python", "pymongo"],
+        "tags": ["mongodb", "python", "pmongo"],
         "date": datetime.datetime.utcnow()}
 
 result1 = collection.insert_one(post)
